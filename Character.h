@@ -32,4 +32,11 @@ public:
   class provides its own unique implementation of the virtual function, enabling polymorphism.*/
 };
 
+class PlayerCharacter : public Character {
+public:
+  std::string WhatAmI() const override {
+    return "I am a player character";
+  }
+};
+
 #endif

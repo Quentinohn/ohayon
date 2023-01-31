@@ -21,6 +21,10 @@ void Character::Break(){
 }
 
 int main() {
-    std::cout << "Hello World!";
+    PlayerCharacter character;
+    character.Accelerate();
+    character.Break();
+    std::cout << "Speed: " << character.speed() << std::endl;
+    std::cout << character.WhatAmI() << std::endl;
     return 0;
 }
