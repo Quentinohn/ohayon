@@ -1,6 +1,6 @@
 #include <iostream>
 #include "Character.h"
-
+#include "Mario.h"
 Character::Character(){
   //default constructor
   this->_speed=0;
@@ -26,5 +26,9 @@ int main() {
     character.Break();
     std::cout << "Speed: " << character.speed() << std::endl;
     std::cout << character.WhatAmI() << std::endl;
+    Mario mario;
+    std::cout << "I am " << mario.WhatAmI() << std::endl;
     return 0;
 }
+
+
