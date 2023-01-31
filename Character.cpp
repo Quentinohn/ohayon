@@ -21,9 +21,6 @@ void Character::Break(){
 }
 
 int main() {
-    Character character;
-    character.Accelerate();
-    character.Break();
-    std::cout << "Speed: " << character.speed() << std::endl;
+    std::cout << "Hello World!";
     return 0;
 }
