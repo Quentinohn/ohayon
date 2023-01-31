@@ -7,4 +7,6 @@ public:
   Yoshi(){};
   ~Yoshi()=default;
   std::string WhatAmI() const;
+  void Accelerate();
 };
+

@@ -2,6 +2,7 @@
 #include "Character.h"
 #include "Mario.h"
 #include "Yoshi.h"
+
 Character::Character(){
   //default constructor
   this->_speed=0;
@@ -20,7 +21,7 @@ void Character::Break(){
     this->_speed = std::max(this->_speed - 1, 0.0f);
   }
 }
-
+/*
 int main() {
     PlayerCharacter character;
     character.Accelerate();
@@ -34,4 +35,4 @@ int main() {
     return 0;
 }
 
-
+*/

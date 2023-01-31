@@ -8,3 +8,4 @@ public:
   ~Mario()=default;
   std::string WhatAmI() const;
 };
+

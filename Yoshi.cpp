@@ -5,3 +5,16 @@ std::string Yoshi::WhatAmI() const{
   std::string name="Yoshi";
   return name;
 }
+
+void Yoshi::Accelerate() {
+  if (_speed + 2 <= _max_speed) {
+    _speed += 2;
+  } else {
+    _speed = _max_speed;
+  }
+}
+
+
+
+
+

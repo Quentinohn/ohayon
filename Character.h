@@ -14,7 +14,6 @@ public:
   // Default constructor to initialize the speed and maximum speed of the character
   Character();
   ~Character()=default; //default destructor
-
   // Virtual function to allow for derived classes to override this implementation
   virtual void Accelerate();
   // Function to decrease the speed of the character
