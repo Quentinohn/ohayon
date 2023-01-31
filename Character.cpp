@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Character.h"
 #include "Mario.h"
+#include "Yoshi.h"
 Character::Character(){
   //default constructor
   this->_speed=0;
@@ -28,6 +29,8 @@ int main() {
     std::cout << character.WhatAmI() << std::endl;
     Mario mario;
     std::cout << "I am " << mario.WhatAmI() << std::endl;
+    Yoshi yoshi;
+    std::cout << "I am " << yoshi.WhatAmI() << std::endl;
     return 0;
 }
 
