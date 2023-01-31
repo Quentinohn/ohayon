@@ -1,11 +1,14 @@
 #include "Yoshi.h"
 
+Yoshi::Yoshi(int nbCrests) {
+_nb_Crests = nbCrests;
+}
 
 
 std::string Yoshi::WhatAmI() const{
   //declaration of the "Yoshi" version of Character class's pure virtual function WhatAmI
   std::string name="Yoshi";
-  return name;
+  return std::to_string(_nb_Crests) + " crested Yoshi";
 }
 
 void Yoshi::Accelerate() {
@@ -15,9 +18,3 @@ void Yoshi::Accelerate() {
     _speed = _max_speed;
   }
 }
-
-
-
-
-
-
