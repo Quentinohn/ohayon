@@ -21,18 +21,4 @@ void Character::Break(){
     this->_speed = std::max(this->_speed - 1, 0.0f);
   }
 }
-/*
-int main() {
-    PlayerCharacter character;
-    character.Accelerate();
-    character.Break();
-    std::cout << "Speed: " << character.speed() << std::endl;
-    std::cout << character.WhatAmI() << std::endl;
-    Mario mario;
-    std::cout << "I am " << mario.WhatAmI() << std::endl;
-    Yoshi yoshi;
-    std::cout << "I am " << yoshi.WhatAmI() << std::endl;
-    return 0;
-}
 
-*/
