@@ -4,7 +4,6 @@ Yoshi::Yoshi(int nbCrests) {
 _nb_Crests = nbCrests;
 }
 
-
 std::string Yoshi::WhatAmI() const{
   //declaration of the "Yoshi" version of Character class's pure virtual function WhatAmI
   std::string name="Yoshi";

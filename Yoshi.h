@@ -13,11 +13,3 @@ public:
   std::string WhatAmI() const;
   void Accelerate() override;
 };
-
-
-
-
-
-
-
-

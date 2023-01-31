@@ -97,7 +97,6 @@ void race(std::vector <Character*>& runners){
         position[200-distance[0]]='.';
         position[200-distance[1]]=',';
         }
-        
     }
 
     if (distance[0]==distance[1]){
@@ -131,4 +130,7 @@ int main() {
     runners.push_back(new Mario());
     runners.push_back(new Yoshi());
     race(runners);
+    for(int i=0;i<runners.size();i++){
+    delete(runners[i]);
+  }
 }
